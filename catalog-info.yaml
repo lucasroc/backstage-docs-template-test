@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "backstage-docs-template-test"
+  description: "Teste do template documentation template"
+  annotations:
+    github.com/project-slug: lucasroc/backstage-docs-template-test
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: "group:default/guests"
